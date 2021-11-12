@@ -26,3 +26,5 @@ times = 0
 while times < 20:
     times += 1
     print(f"print {times} times")
+    if times == 11:
+        break
