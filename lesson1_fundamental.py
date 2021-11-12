@@ -14,5 +14,15 @@ else:
 # LOOPING
 num = 4
 
+print('\n for ')
+print('-' * 10)
+
 for idx in range(1, num+1):
     print(f'Hello number #{idx}')
+
+print('\n while ')
+print('-' * 10)
+times = 0
+while times < 20:
+    times += 1
+    print(f"print {times} times")
