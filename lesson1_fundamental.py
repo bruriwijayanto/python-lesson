@@ -1,6 +1,8 @@
 # SEQUENTIAL: Eksekusi berurutan
 print('Hello World!')
 print('this command')
+print(f'Hello World!\n'
+      f'this command multiline')
 print('execute sequencial')
 print('-' * 10)
 
